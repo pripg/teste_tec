@@ -1,0 +1,5 @@
+SELECT p.nome_paciente, pr.descricao_prontuario, a.data_atendimento
+FROM Pacientes p
+JOIN Atendimento a ON p.id_paciente = a.id_paciente
+JOIN Prontuário pr ON a.id_prontuario = pr.id_prontuario
+WHERE p.id_paciente = 123;
