@@ -1,5 +1,5 @@
 Saiba mais sobre as mensagens de erro:
-Os usuários são solicitados a fornecer detalhes sobre a mensagem de erro recebida, incluindo o texto completo da mensagem e, se possível, uma captura de tela. 
+Solicitar aos usuários detalhes sobre a mensagem de erro recebida, incluindo o texto completo da mensagem e, se possível, uma captura de tela. 
 Verificar a mensagem de erro para obter informações sobre a natureza do problema.
 
 Reproduzir o erro:
@@ -11,7 +11,7 @@ Pedir ao usuário para explicar o contexto em que o erro ocorreu. Descobrir quai
 que o erro ocorresse. Isso ajudará a entender melhor a causa do problema.
 
 Verifique o log:
-Verifique o log do sistema em busca de mensagens de erro e eventos relacionados à operação incorreta. Os logs podem conter informações úteis para identificar a 
+Verificar o log do sistema em busca de mensagens de erro e eventos relacionados à operação incorreta. Os logs podem conter informações úteis para identificar a 
 causa do problema.
 
 Código relacionado à análise:
@@ -30,13 +30,13 @@ Tentar isolar o problema identificando outras operações ou recursos do sistema
 Eliminar as causas potenciais e concentre-se nas causas raiz.
 
 Desenvolva e teste a solução:
-Com base na análise realizada, desenvolva uma solução para o problema identificado. Isso pode incluir correções de código, ajustes de configuração ou 
+Com base na análise realizada, desenvolver uma solução para o problema identificado. Isso pode incluir correções de código, ajustes de configuração ou 
 atualizações de dependência. Teste a solução para garantir que ela resolva o problema e não cause novos problemas.
 
 Comunicar e implementar soluções:
-Comunique as soluções sugeridas aos usuários e obtenha seus comentários. E assim, o plano ele será implementado no ambiente de produção. 
-Certifique-se de documentar a solução para referência futura.
+Comunicar as soluções sugeridas aos usuários e obter seus comentários. E assim, o plano será implementado no ambiente de produção. 
+Certificar de documentar a solução para referência futura.
 
-Monitore e verifique a resolução:
-Depois de implementar a solução, monitore o sistema para garantir que o erro foi resolvido. Verifique com o usuário se o problema foi resolvido conforme o 
+Monitorar e verifique a resolução:
+Depois de implementar a solução, monitorar o sistema para garantir que o erro foi resolvido. Verifique com o usuário se o problema foi resolvido conforme o 
 esperado.
