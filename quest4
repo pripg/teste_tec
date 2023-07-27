@@ -1,0 +1,40 @@
+Perguntas de registro:
+Peça aos usuários que forneçam o máximo de detalhes possível sobre os erros desconhecidos que encontrarem. Isso inclui a mensagem de erro completa, a 
+ação que ele estava tomando quando ocorreu o erro, os dados inseridos e qualquer outra informação relevante.
+
+Para reproduzir o erro:
+Tente reproduzir o erro em um ambiente de desenvolvimento ou teste. Isso ajudará a verificar se o problema é específico do usuário ou se é um problema do 
+sistema que afeta todos os usuários.
+
+Verifique o syslog:
+Verifique o log do sistema em busca de mensagens de erro ou eventos relacionados a erros desconhecidos. Os logs podem conter informações úteis para identificar 
+a causa do problema.
+
+Isole o problema:
+Tente isolar o erro para determinar sua extensão e se está relacionado a um módulo específico ou operação do sistema.
+
+Executar testes unitários e de integração:
+Teste os componentes do sistema relacionados com casos de teste específicos para identificar possíveis pontos problemáticos e exceções não tratadas.
+
+Busque na base de conhecimento:
+Verifique a base de conhecimento, os logs de problemas anteriores ou os fóruns para ver se esse bug desconhecido foi relatado e se uma solução foi encontrada.
+
+Colabore com a equipe:
+Compartilhe bugs com as equipes de desenvolvimento e suporte para obter informações e ideias adicionais para resolver problemas.
+
+Veja as mudanças recentes:
+Verifique se há alterações recentes de código, configuração ou ambiente que possam estar relacionadas a erros desconhecidos.
+
+Implemente e teste a solução:
+Com base na análise feita até agora, desenvolva soluções para corrigir os erros. Testes rigorosos são realizados para garantir que a solução 
+não crie novos problemas.
+
+Solução documentada:
+Registre todas as informações relevantes sobre o erro, a causa raiz e as soluções encontradas. Isso é útil para referência futura e para melhorar a 
+compreensão da equipe sobre possíveis problemas e soluções.
+
+Implemente a solução e monitore:
+Implante a solução para produção e monitore o sistema para garantir que erros desconhecidos sejam resolvidos com sucesso.
+
+Aprenda com seus erros:
+Use essas experiências para aprender e melhorar processos como implementação, teste e monitoramento para evitar erros desconhecidos semelhantes no futuro.
