@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        try {
+            System.out.print("Digite o primeiro número: ");
+            double num1 = scanner.nextDouble();
+
+            System.out.print("Digite o segundo número: ");
+            double num2 = scanner.nextDouble();
+
+            double menor, maior;
+
+            if (num1 < num2) {
+                menor = num1;
+                maior = num2;
+            } else {
+                menor = num2;
+                maior = num1;
+            }
+
+            double quadradoMenor = Math.pow(menor, 2);
+
+            System.out.println("O quadrado do menor número (" + menor + ") é: " + quadradoMenor);
+
+            if (maior >= 0) {
+                double raizQuadradaMaior = Math.sqrt(maior);
+                System.out.println("A raiz quadrada do maior número (" + maior + ") é: " + raizQuadradaMaior);
+            } else {
+                System.out.println("Não é possível calcular a raiz quadrada de um número negativo.");
+            }
+
+        } catch (java.util.InputMismatchException e) {
+            System.out.println("Entrada inválida. Certifique-se de digitar apenas números.");
+        }
+    }
+}
