@@ -1,7 +1,6 @@
 Entendendo as reclamações dos clientes:
-Começaria obtendo detalhes do cliente sobre a desaceleração que ele está enfrentando. 
+Começaria obtendo detalhes do cliente sobre a lentidão que ele está enfrentando. 
 Faria perguntas para entender quais funções específicas do sistema são afetadas, com que frequência o problema ocorre e quando começou a ocorrer. 
-Quanto mais detalhes tivermos, melhor será a compreensão do problema.
 
 Infraestrutura do sistema:
 Verificar se a infraestrutura do sistema (servidores, bancos de dados, rede, etc.) está funcionando corretamente. 
@@ -10,7 +9,6 @@ Verificar se o sistema está devidamente atualizado.
 
 Analisar logs do sistema:
 Verificar os logs do sistema em busca de pistas sobre o problema. 
-Os logs podem conter informações sobre erros, tempos de resposta e outras métricas que são importantes para determinar a causa de uma desaceleração.
 
 Teste de desempenho:
 Realizar testes de desempenho em funções específicas do sistema que apresentam lentidão. Isso pode incluir testes de carga, testes de estresse e 
@@ -21,7 +19,7 @@ Rastrear a utilização de recursos do sistema em tempo real com ferramentas de 
 associados à lentidão.
 
 Se possível, verificar o código do sistema:
-Se a funcionalidade afetada envolver código personalizado, examine o código relevante para identificar possíveis gargalos, loops infinitos, 
+Se a funcionalidade afetada envolver código personalizado, examinar o código relevante para identificar possíveis gargalos, loops infinitos, 
 consultas de banco de dados lentas ou outras ineficiências que possam estar causando a lentidão.
 
 Verificar as conexões com serviços externos:
@@ -29,15 +27,15 @@ Se os recursos do sistema dependerem de serviços externos, é necessário verif
 Problemas com serviços externos podem afetar o desempenho de todo o sistema.
 
 Considerar melhorias e otimizações de infraestrutura se necessário:
-Com base nas informações coletadas, considere melhorias de infraestrutura, como aumento de recursos de hardware, otimização de consultas de banco de dados, 
+Com base nas informações coletadas, considerar melhorias de infraestrutura, como aumento de recursos de hardware, otimização de consultas de banco de dados, 
 utilização de cache ou outras estratégias de otimização relevantes.
 
 Implementação de teste a solução:
-Depois de identificar a causa raiz da lentidão e propor uma solução, implemente e execute testes em um ambiente de produção para garantir que a 
+Depois de identificar a causa raiz da lentidão e propor uma solução, implementar e executar testes em um ambiente de produção para garantir que a 
 lentidão foi resolvida.
 
 Monitorando a eficácia da solução:
-Monitore o sistema após a implementação da solução para garantir que a queda de velocidade seja tratada com eficiência. 
+Monitorar o sistema após a implementação da solução para garantir que a queda de velocidade seja tratada com eficiência. 
 Acompanhe as métricas de desempenho para garantir que as melhorias sejam sustentáveis.
 
 OBS: É importante levar em consideração que cada um sistema e cada empresa funciona de uma determinada forma, dependendo do setor em que o funcionário está atuando
