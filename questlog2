@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class VerificarAnoBissexto {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o ano de nascimento: ");
+        int anoNascimento = scanner.nextInt();
+
+        if (verificarAnoBissexto(anoNascimento)) {
+            System.out.println(anoNascimento + " é um ano bissexto!");
+        } else {
+            System.out.println(anoNascimento + " não é um ano bissexto.");
+        }
+    }
+
+    public static boolean verificarAnoBissexto(int ano) {
+        if ((ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
