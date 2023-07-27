@@ -1,4 +1,4 @@
-SELECT atendimento
+SELECT Atendimento
 FROM Pacientes p
 JOIN Atendimento a ON p.id_paciente = a.id_paciente
 JOIN Prontuário pr ON a.id_prontuario = pr.id_prontuario
