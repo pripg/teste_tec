@@ -1,0 +1,6 @@
+SELECT atendimento
+FROM Pacientes p
+JOIN Atendimento a ON p.id_paciente = a.id_paciente
+JOIN Prontuário pr ON a.id_prontuario = pr.id_prontuario
+WHERE pr.cd_especialidade = 'Neurologia'
+AND a.data_atendimento >= DATE_SUB(NOW(), INTERVAL 6 MONTH);
